@@ -1,0 +1,16 @@
+{
+  "name": "sample-typescript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only  src/app.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
